@@ -51,7 +51,7 @@
       </nav>
 
     <!-- carrusel -->
-    <header>
+    <header id="inicio">
         <div class="container-fluid">
             <div class="row">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -79,7 +79,7 @@
         </div>
     </header>
 
-    <!-- quienes somos / desaparece en mobile -->
+    <!-- Desaparece en mobile -->
     <section id="quienes-somos" class="d-none d-none d-sm-none d-sm-block d-xs-block my-5">
         <div class="container">
             <h2 class="text-center">¿Quiénes somos?</h2>
@@ -87,18 +87,18 @@
             <div class="row">
                 <div class="col-4">
                     <div class="bg-info text-center py-1 mb-2">
-                        <i class="fas fa-plane fa-2x"></i>
+                      <i class="fas fa-plane fa-2x"></i>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta error ab ipsum labore corrupti nihil, a non voluptas molestiae odio facere fugiat rem magni laudantium? Velit ipsum voluptate tenetur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus quasi quisquam, doloribus quia eligendi maxime debitis, perferendis neque magni aperiam, tempore nesciunt facilis optio error quod. Odit laudantium molestiae quisquam harum at adipisci culpa non illo dicta ipsa asperiores exercitationem, dolorem veniam doloremque natus repudiandae nulla voluptas sed.</p>                
                   </div>
                 <div class="col-4">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta error ab ipsum labore corrupti nihil, a non voluptas molestiae odio facere fugiat rem magni laudantium? Velit ipsum voluptate tenetur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus quasi quisquam, doloribus quia eligendi maxime debitis, perferendis neque magni aperiam, tempore nesciunt facilis optio error quod. Odit laudantium molestiae quisquam harum at adipisci culpa non illo dicta ipsa asperiores exercitationem, dolorem veniam doloremque natus repudiandae nulla voluptas sed.</p>                
-                  <div class="bg-info text-center py-1 mt-2">
+                  <div class="bg-info text-center py-1 mt-2 toggleJQ">
                         <i class="fas fa-mountain fa-2x"></i>
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="bg-info text-center py-1 mb-2">
+                    <div class="bg-info text-center py-1 mb-2 toggleJQ">
                         <i class="fas fa-route fa-2x"></i>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta error ab ipsum labore corrupti nihil, a non voluptas molestiae odio facere fugiat rem magni laudantium? Velit ipsum voluptate tenetur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus quasi quisquam, doloribus quia eligendi maxime debitis, perferendis neque magni aperiam, tempore nesciunt facilis optio error quod. Odit laudantium molestiae quisquam harum at adipisci culpa non illo dicta ipsa asperiores exercitationem, dolorem veniam doloremque natus repudiandae nulla voluptas sed.</p>                
@@ -113,40 +113,39 @@
         <div class="container">
             <h2 class="text-center pb-5">Destacados</h2>
             <div class="row ">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="card bg-info">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="Isla Puentes">
                         <div class="card-body">
-                         <h5 class="card-title">Libero eum</h5>
+                         <button type="button" class="btn btn-link btn-lg text-light" data-toggle="modal" data-target="#card1">Libero eum</button>
                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="card bg-info">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="paisaje 2">
                         <div class="card-body">
-                            <h5 class="card-title">Sit amet</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-link btn-lg text-light">Sit amet</button>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                  </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="card bg-info">
-                      <!-- agregar texto en alt para todas las fotos -->
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="paisaje 3">
                         <div class="card-body">
-                            <h5 class="card-title">Quia quaerat</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-link btn-lg text-light">Quia quaerat</button>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <div class="card bg-info">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="paisaje 4">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem ipsum</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-link btn-lg text-light">Lorem ipsum</button>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                  </div>
@@ -154,32 +153,30 @@
         </div>
     </section>
 
-    <!-- MODALES -->
-    <!-- ventana modal Asado - se reemplaza info de id por la de asado-->
-    <div class="modal fade" id="asado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="asadoModalLabel">Asado en la Patagonia</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <!-- ponemos la imagen y class fluid -->
-                <img src="assets/img/card-1.jpg" class="img-fluid my-3" alt="Asado en la Patagonia">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium hic aspernatur mollitia! Deserunt qui sed, laudantium ad? Ad, iusto inventore!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laboriosam magni maiores et, libero eum, assumenda atque nihil distinctio similique saepe nostrum incidunt, nobis soluta porro expedita quia quaerat aliquam rerum earum at necessitatibus! Deserunt laboriosam totam possimus necessitatibus sapiente.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium hic aspernatur mollitia! Deserunt qui sed, laudantium ad? Ad, iusto inventore!</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
+    <!-- ventana modal para Card1 -->
+    <div class="modal fade" id="card1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Libero eum</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/img/card1.jpg" class="img-fluid my-3" alt="Isla Puentes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consectetur repudiandae voluptate eveniet quos aliquid vitae cum deserunt iste asperiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consectetur repudiandae voluptate eveniet quos aliquid vitae cum deserunt iste asperiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nam?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      <!-- fin ventana modal Asado -->
-  
+    </div>
+      <!-- fin ventana modal card1 -->
+
+     
   
 
   
@@ -195,13 +192,13 @@
         </div>
     </section>
 
-    <footer class="bg-info">
+    <footer class="bg-info py-2">
         <div class="container">
-            <div class="row justify-content-around align-items-center">
-                <div class="col-6">
+            <div class="row">
+                <div class="col-6 justify-content-center">
                     <p>VIAJES CHILE</p>
                 </div>
-                <div class="col-6 mx-1">
+                <div class="col-6 px-1 justify-content-center align-items-center">
                     <a href="https://github.com/" target="_blank">
                         <i class="fab fa-github-square fa-2x text-light mx-1"></i></a>
                         <a href="https://cl.linkedin.com/" target="_blank">

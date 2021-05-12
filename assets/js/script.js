@@ -14,6 +14,16 @@ $(function(){
         }
       });
 
+      // $(".text-uppercase").on('click',function(){
+      //   $(this).css('color','red');
+      // });
+
+    
+      $('[data-toggle="tooltip"]').tooltip();
+      
+
+      
+     
 
 
 });
