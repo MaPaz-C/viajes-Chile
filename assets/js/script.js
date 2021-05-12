@@ -1,5 +1,6 @@
 $(function(){
 
+// smooth scroll
     $("a").click(function(event){
         if(this.hash !==""){
           event.preventDefault();
@@ -14,12 +15,22 @@ $(function(){
         }
       });
 
-      $(".text-uppercase").on('click',function(){
-        $(this).css('color','red');
-      });
+      // cambio color
 
-    // tooltip usado en footer
+      // $(".btn-link").on('click',function(){
+      //   $(this).css('color','black');
+      // });
+
+      // $(".btn-link").dblclick(function(){
+      //   $(this).css('color','red');
+      // });
+
+      // popover: ¿Quienes somos?
+      $('[data-toggle="popover"]').popover()
+
+
+    // tooltip: footer
       $('[data-toggle="tooltip"]').tooltip();
       
-
+      
 });
