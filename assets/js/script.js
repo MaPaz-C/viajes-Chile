@@ -14,16 +14,12 @@ $(function(){
         }
       });
 
-      // $(".text-uppercase").on('click',function(){
-      //   $(this).css('color','red');
-      // });
+      $(".text-uppercase").on('click',function(){
+        $(this).css('color','red');
+      });
 
-    
+    // tooltip usado en footer
       $('[data-toggle="tooltip"]').tooltip();
       
-
-      
-     
-
 
 });

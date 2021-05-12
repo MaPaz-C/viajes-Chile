@@ -12,6 +12,10 @@ body * {
     padding: 0;
   }
 
+header{
+    height: 80%;
+
+  }
 .section {
     margin-top: 50px;
     /* padding-top: 100px; */
