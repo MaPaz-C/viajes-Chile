@@ -1,0 +1,18 @@
+body {
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    /* cambiar tipografia */
+    font-family: "Open Sans", sans-serif;
+}
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+.section {
+    margin-top: 50px;
+    /* padding-top: 100px; */
+}
