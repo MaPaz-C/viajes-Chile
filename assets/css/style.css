@@ -3,9 +3,9 @@ body {
     background-color: #000;
     color: #fff;
     margin: 0;
-    /* cambiar tipografia */
     font-family: "Raleway", sans-serif;
 }
+
 body * {
     margin: 0;
     border: 0;
@@ -13,22 +13,24 @@ body * {
     box-sizing: border-box;
   }
 
-
 .section {
     margin-top: 50px;
     /* padding-top: 100px; */
 }
 
-p{
-  margin: 16px 0;
+nav a {
   font-size: 0.875rem;
 }
 
+p {
+  margin: 1rem 0;
+  font-size: 0.75rem;
+}
 
 
-  @media screen and (max-width:575px) {
+@media screen and (max-width:575px) {
 
-    html{
-      font-size:12px!important;
-    }
+   html{
+    font-size:12px!important;
+  }
 }

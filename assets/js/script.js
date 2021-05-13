@@ -15,22 +15,33 @@ $(function(){
         }
       });
 
-      // cambio color
+// cambio color al pasa mouse en título de section "Quiénes somos", "Destacados" y "contacto".
+    $(".secQS").on('mouseenter',function(){
+      $(this).css('color','#5bc0de');
+    });
+    $(".secQS").mouseleave(function() {
+      $(this).css("color","white");
+    });
 
-      // $(".btn-link").on('click',function(){
-      //   $(this).css('color','black');
-      // });
+    $(".secDest").on('mouseenter',function(){
+      $(this).css('color','#5bc0de');
+    });
+    $(".secDest").mouseleave(function() {
+      $(this).css("color","white");
+    });
 
-      // $(".btn-link").dblclick(function(){
-      //   $(this).css('color','red');
-      // });
+    $(".secCont").on('mouseenter',function(){
+      $(this).css('color','#5bc0de');
+    });
+    $(".secCont").mouseleave(function() {
+      $(this).css("color","white");
+    });
 
-      // popover: ¿Quienes somos?
-      $('[data-toggle="popover"]').popover()
+  // popover: ¿Quienes somos?
+    $('[data-toggle="popover"]').popover()
 
 
-    // tooltip: footer
-      $('[data-toggle="tooltip"]').tooltip();
-      
+  // tooltip: footer
+    $('[data-toggle="tooltip"]').tooltip();
       
 });
