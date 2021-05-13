@@ -3,7 +3,6 @@ body {
     background-color: #000;
     color: #fff;
     margin: 0;
-    /* cambiar tipografia */
     font-family: "Raleway", sans-serif;
 }
 body * {
@@ -16,12 +15,15 @@ body * {
 
 .section {
     margin-top: 50px;
-    /* padding-top: 100px; */
 }
 
-p{
-  margin: 16px 0;
+nav a {
   font-size: 0.875rem;
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 0.75rem;
 }
 
 
